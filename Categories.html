@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+	<title> Categories </title>
+    <!-- bootstrap cdn -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+	<!-- javascript -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+     <!-- Animations -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+
+<style type="text/css">
+	body {background-color: #D8A47F}
+	.card:hover {background-color: #EF8354;}
+
+	.card-img-top {
+        height: 300px; 
+        }
+
+	#ct { animation: rubberBand;
+     animation-duration: 2s;}
+
+     .modal-body img {
+        height: 300px; 
+        }
+     .navbar {background-color: #EF8354}
+</style>
+
+ <nav class="navbar navbar-expand-md" id="idk">
+        <div class="container-fluid">
+                   
+            <a class="nav-link" href="index.html"><span class="navbar-text h2">Recipes:D</span></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+              
+                <div class="collapse navbar-collapse" id="mynavbar">
+                	 <div class="mx-auto"> 
+                    <ul class="navbar-nav me-auto">
+                       <li class="nav-item">
+                        <a class="nav-link" href="Categories.html">Categories</a>
+                    </li>
+                       <li class="nav-item">
+                       <a class="nav-link" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-link" href="SubmitRecipe.html">Submit Recipe</a>
+                    </li>
+                    </ul>
+                </div>
+
+                    <form class="d-flex">
+                    <input class="form-control me-2" type="text" placeholder="Search">
+                    <button class="btn btn-warning" type="button">Search</button>
+                    </form>
+                </div>
+        </div>
+    </nav>
+
+<div class="container"><h1 class="text-center p-2" id="ct">Recipe Categories</h1></div>
+
+<div class="container mt-2 p-2">
+
+    <div class="row">
+    	<div class=" col-md-4 mt-2">
+        <p class="p-4 border bg-warning text-center rounded">Snacks</p>
+        </div>
+        <div class=" col-md-4 mt-2">
+        <p class="p-4 border bg-warning text-center rounded">Dishes</p>
+        </div>
+        <div class=" col-md-4 mt-2">
+        <p class="p-4 border bg-warning text-center rounded">Desserts</p>
+        </div>
+    	<div class="col-md-4 p-2">
+	    	<div class="card">
+			<img class="card-img-top" src="puto.jpg" alt="Card image cap">
+			<div class="card-body text-center">
+			<h5 class="card-title">Puto</h5>
+			<p class="card-text">Puto is a Filipino steamed rice cake delicacy normally eaten as snack. </p>
+			<a class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#puto">See Recipe</a>
+			</div>
+			</div>
+    	</div>
+    	<div class="col-md-4 p-2">
+	    	<div class="card">
+			<img class="card-img-top" src="adobo.jpg" alt="Card image cap">
+			<div class="card-body text-center">
+			<h5 class="card-title">Filipino Chicken Adobo</h5>
+			<p class="card-text">This recipe for Filipino adobo is salty, vinegary, and incredibly easy to make.</p>
+			<a class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#adobo">See Recipe</a>
+			</div>
+			</div>
+    	</div>
+    	<div class="col-md-4 p-2">
+	    	<div class="card">
+			<img class="card-img-top" src="lecheflan.jpg" alt="Card image cap">
+			<div class="card-body text-center">
+			<h5 class="card-title">Leche Flan</h5>
+			<p class="card-text">Leche Flan is a dessert made-up of eggs and milk with a soft caramel on top. </p>
+			<a class="btn btn-warning"  data-bs-toggle="modal" data-bs-target="#lecheflan">See Recipe</a>
+			</div>
+			</div>
+    	</div>
+    	<div class="col-md-4 p-2">
+	    	<div class="card">
+			<img class="card-img-top" src="taho.jpg" alt="Card image cap">
+			<div class="card-body text-center">
+			<h5 class="card-title">Taho</h5>
+			<p class="card-text">Taho is a sweet snack made with silken tofu, sago or tapioca pearls, and brown sugar syrup.  </p>
+			<a class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#taho">See Recipe</a>
+			</div>
+			</div>
+    	</div>
+    	<div class="col-md-4 p-2">
+	    	<div class="card">
+			<img class="card-img-top" src="sinigang.webp" alt="Card image cap">
+			<div class="card-body text-center">
+			<h5 class="card-title">Sinigang na Baboy</h5>
+			<p class="card-text">Sinigang is a Filipino tamarind-based soup traditionally made with pork and a medley of vegetables.</p>
+			<a class="btn btn-warning"  data-bs-toggle="modal" data-bs-target="#sinigang">See Recipe</a>
+			</div>
+			</div>
+    	</div>
+    	<div class="col-md-4 p-2">
+	    	<div class="card">
+			<img class="card-img-top" src="ubeicecream.webp" alt="Card image cap">
+			<div class="card-body text-center">
+			<h5 class="card-title">Ube Ice-cream</h5>
+			<p class="card-text">Rich, velvety no churn ube ice cream with sweet goodness, nutty hints and a floral aroma.</p>
+			<a class="btn btn-warning"  data-bs-toggle="modal" data-bs-target="#ubeicecream">See Recipe</a>
+			</div>
+			</div>
+    	</div>
+	</div>
+</div>
+
+<!-- Modals -->
+<div class="modal fade modal-xl" id="puto" tabindex="-1" role="dialog" aria-labelledby="putolabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title" id="puto">Puto</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>        
+      </div>
+
+      <div class="modal-body">
+        <div class="container-fluid">
+        	 <div class="row">
+		      <div class="col-md-4 border object-fit-lg-contain"><img src="puto.jpg" class="img-fluid" ></div>
+		      <div class="col-md-8 border"> 
+		      	<p>Ingredients:</p>
+                    <ul>
+                        <li>1 cup flour</li>
+                        <li>½ cup sugar</li>
+                        <li>2 teaspoons baking powder</li>
+                        <li>1 large egg</li>
+                        <li>½ cup milk (evaporated or fresh)</li>
+                        <li>¼ cup water</li>
+                        <li>1 tablespoon butter -melted</li>
+                        <li>1 teaspoon vanilla extract</li>
+                        <li>¼ cup grated cheese</li>
+                        <li>strips cheese - for topping</li>
+                        <li>butter or oil for brushing the molds</li>
+                    </ul>
+                    <p>Steps:</p>
+                    <ol>
+                       <li> In a mixing bowl, combine flour, sugar and baking powder. </li>
+                       <li> Add the milk and egg and mix using a whisk or electric mixer at medium speed only until batter becomes smooth.
+                       <li> Add the water, butter and vanilla extract and mix well for a minute or two. Lastly, add the grated cheese and fold in slowly using a spatula or spoon. </li>
+                       <li> Grease each mold with butter and fill the molds with batter up to ¾ full. </li>
+                       <li> Fill the bottom of the steamer with water and bring to a gentle simmer over very low heat. Place the molds in the steamer basket and steam for about 10 to 12 minutes or until toothpick inserted comes out clean. </li>
+                       <li> Remove the lid and add a strip of cheese on top of each put. Steam for another minute or two until cheese melts. Turn off heat and let it rest until slightly cooled down. </li>
+                       <li> Remove the cooked Puto Cheese from the molds and transfer to a serving plate. </li>
+                    </ol>
+		     </div>
+
+           </div>	
+         </div>
+      </div>
+
+      <div class="modal-footer">
+
+      	<p> Link to the actual recipe: https://www.foxyfolksy.com/puto-cheese/#what-is-puto </p>
+
+      </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade modal-xl" id="adobo" tabindex="-1" role="dialog" aria-labelledby="adobolabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title" id="adobo">Adobo</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>        
+      </div>
+
+      <div class="modal-body">
+        <div class="container-fluid">
+        	 <div class="row">
+		      <div class="col-md-4 border object-fit-lg-contain"><img src="adobo.jpg" class="img-fluid" ></div>
+		      <div class="col-md-8 border"> 
+		      	<p>Ingredients:</p>
+                    <ul>
+                        <li>5 cloves garlic</li>
+                        <li>3 pounds bone-in chicken thighs, drumsticks, or a combination</li>
+                        <li>1/2 teaspoon kosher salt</li>
+                        <li>1 tablespoon neutral oil, such as canola</li>
+                        <li>3 dried bay leaves</li>
+                        <li>2 teaspoons whole black peppercorns</li>
+                        <li>2 cups water</li>
+                        <li>1/2 cup soy sauce, preferably a Filipino brand like Silver Swan</li>
+                        <li>1/3 cup cane vinegar</li>
+                        <li>3 tablespoons oyster sauce</li>
+                        <li>Steamed white rice, for serving</li>
+                    </ul>
+                    <p>Steps:</p>
+                    <ol>
+                       <li> Smash and peel 5 garlic cloves. Pat 3 pounds chicken thighs, drumsticks, or a combination dry with paper towels. Season all over with 1/2 teaspoon kosher salt. </li>
+                       <li> Heat 1 tablespoon neutral oil in a Dutch oven or large heavy-bottomed pot over medium-high heat until shimmering. Working in 2 batches, add the chicken to the pot (skin-side down if using thighs). Sear until browned on all sides, about 6 minutes per batch (reduce the heat as needed if starting to burn). Transfer to a plate. </li>
+                       <li> Place the garlic, 3 dried bay leaves, and 2 teaspoons whole black peppercorns in the pot. Stir until the garlic cloves and peppercorns are slightly toasted and fragrant, 30 seconds to 1 minute. Add 2 cups water, 1/2 cup soy sauce, 1/3 cup cane vinegar, and 3 tablespoons oyster sauce. Scrape up any browned bits from the bottom of the pot with a wooden spoon. </li>
+                       <li> Return the chicken and any accumulated juices on the plate to the pot, arranging the chicken in a single layer (skin-side down if using thighs). Bring to a boil. Reduce the heat to maintain a simmer. Cook uncovered until the chicken registers at least 165ºF in the thickest part, flipping each piece over halfway through, about 20 minutes total. When the chicken is almost ready, arrange a rack in the upper-third of the oven and heat the oven to broil. Line a rimmed baking sheet with aluminum foil. </li>
+                       <li> Using tongs, transfer the chicken (skin-side up if using thighs) to the baking sheet. Continue to let the sauce simmer on the stove. Broil the chicken until browned on top, about 3 minutes. Remove the chicken from the oven, flip each piece, and brush with some of the sauce from the pot. Return the chicken to the oven and broil until browned on the second side, about 3 minutes more. Remove and discard the bay leaves if desired. Serve with steamed white rice and drizzle heavily with the sauce. </li>
+                       
+                    </ol>
+		     </div>
+
+           </div>	
+         </div>
+      </div>
+
+      <div class="modal-footer">
+
+      	<p> Link to the actual recipe: https://www.thekitchn.com/filipino-chicken-adobo-recipe-23652486 </p>
+
+      </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade modal-xl" id="lecheflan" tabindex="-1" role="dialog" aria-labelledby="lecheflanlabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title" id="lecheflan">Leche Flan</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>        
+      </div>
+
+      <div class="modal-body">
+        <div class="container-fluid">
+        	 <div class="row">
+		      <div class="col-md-4 border object-fit-lg-contain"><img src="lecheflan.jpg" class="img-fluid" ></div>
+		      <div class="col-md-8 border"> 
+		      	<p>Ingredients:</p>
+                    <ul>
+                        <li>10 pieces eggs</li>
+                        <li>1 can condensed milk (14 oz)</li>
+                        <li>1 cup fresh milk or evaporated milk</li>
+                        <li>1 cup granulated sugar</li>
+                        <li>1 teaspoon vanilla extract</li>
+                    </ul>
+                    <p>Steps:</p>
+                    <ol>
+                       <li> Using all the eggs, separate the yolk from the egg white (only egg yolks will be used). </li>
+                       <li> Place the egg yolks in a big bowl then beat them using a fork or an egg beater </li>
+                       <li> Add the condensed milk and mix thoroughly </li>
+                       <li> Pour-in the fresh milk and Vanilla. Mix well </li>
+                       <li> Put the mold (llanera) on top of the stove and heat using low fire </li>
+                       <li> Put-in the granulated sugar on the mold and mix thoroughly until the solid sugar turns into liquid (caramel) having a light brown color. Note: Sometimes it is hard to find a Llanera (Traditional flan mold) depending on your location. I find it more convenient to use individual Round Pans in making leche flan. </li>
+                       <li> Spread the caramel (liquid sugar) evenly on the flat side of the mold </li>
+                       <li> Wait for 5 minutes then pour the egg yolk and milk mixture on the mold </li>
+                       <li> Cover the top of the mold using an Aluminum foil </li>
+                       <li> Steam the mold with egg and milk mixture for 30 to 35 minutes. </li>
+                       <li> After steaming, let the temperature cool down then refrigerate </li>
+                       <li> Serve for dessert. Share and Enjoy! </li>
+                    </ol>
+		     </div>
+
+           </div>	
+         </div>
+      </div>
+
+      <div class="modal-footer">
+
+      	<p> Link to the actual recipe: https://panlasangpinoy.com/leche-flan/ </p>
+
+      </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade modal-xl" id="taho" tabindex="-1" role="dialog" aria-labelledby="taholabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title" id="taho">Taho</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>        
+      </div>
+
+      <div class="modal-body">
+        <div class="container-fluid">
+        	 <div class="row">
+		      <div class="col-md-4 border object-fit-lg-contain"><img src="taho.jpg" class="img-fluid" ></div>
+		      <div class="col-md-8 border"> 
+		      	<p>Ingredients:</p>
+                    <ul>
+                        <li>16 oz silken tofu</li>
+                        <li>1 1/4 cups brown sugar</li>
+                        <li>1 cup water</li>
+                        <li>1 teaspoon vanilla</li>
+                        <li>1 cup tapioca or sago pearls </li>
+                    </ul>
+                    <p>Steps:</p>
+                    <ol>
+                       <li> Bring a large pot of water to a boil. Cook the tapioca pearls according to your package instructions. This can be done in advance; just be sure to store the prepped pearls with some water or a little brown sugar syrup (next step) </li>
+                       <li> Combine the brown sugar, water, and vanilla in a small saucepan and place over medium-high heat. Bring to a boil, stir to dissolve the sugar, and lower heat to a simmer. Continue simmering for about 2-4 minutes and remove from heat. This syrup, or arnibal, can also be made in advance. </li>
+                       <li> Place silken tofu in a parchment lined steamer. Steam for 10-15 minutes, or until heated through. Alternatively, you can microwave the tofu for about 2-5 minutes. </li>
+                       <li>To serve, scoop slices of warm silken tofu into a small cup. Top with tapioca or sago pearls. Pour hot brown sugar syrup (arnibal) on top. Serve immediately, while warm.</li>
+                    </ol>
+		     </div>
+
+           </div>	
+         </div>
+      </div>
+
+      <div class="modal-footer">
+
+      	<p> Link to the actual recipe: https://kitchenconfidante.com/homemade-taho-recipe </p>
+
+      </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade modal-xl" id="sinigang" tabindex="-1" role="dialog" aria-labelledby="siniganglabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title" id="sinigang">Sinigang na Baboy</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>        
+      </div>
+
+      <div class="modal-body">
+        <div class="container-fluid">
+        	 <div class="row">
+		      <div class="col-md-4 border object-fit-lg-contain"><img src="sinigang.webp" class="img-fluid" ></div>
+		      <div class="col-md-8 border"> 
+		      	<p>Ingredients:</p>
+                    <ul>
+                        <li>1 1/2 pounds pork side ribs or spareribs, cut in between the bones to separate them</li>
+                        <li>2 tablespoons neutral oil, such as vegetable</li>
+                        <li>8 ounces hot house or Roma tomatoes, cut into rough 1 1/2-inch pieces (about 2 cups)</li>
+                        <li>1 large yellow onion, diced (about 3 cups)</li>
+                        <li>3 cloves garlic, crushed and peeled</li>
+                        <li>5 cups water</li>
+                        <li>1 long green hot pepper, such as hot Italian or banana (optional)</li>
+                        <li>2 tablespoons powdered tamarind soup base, such as Knorr or Mama Sita’s</li>
+                        <li>2 tablespoons fish sauce</li>
+                        <li>1 teaspoon kosher salt, plus more as needed</li>
+                        <li>1 pound daikon radish (about 1 medium), peeled and cut crosswise into 1/2-inch-thick rounds</li>
+                        <li>1 pound Chinese or Japanese eggplants (about 2 medium), cut crosswise into 1/2-inch-thick rounds</li>
+                        <li>4 ounces fresh okra pods (7 to 12)</li>
+                        <li>8 ounces long beans (1/2 medium bunch), cut into 2- to 3-inch pieces</li>
+                        <li>3 ounces water spinach (1 medium bunch), cut in half</li>
+                        <li>Steamed white rice, for serving</li>
+                    </ul>
+                    <p>Steps:</p>
+                    <ol>
+                       <li> Pat 1 1/2 pounds pork ribs dry with paper towels. Heat 2 tablespoons neutral oil in a large stockpot or Dutch oven over medium-high heat until shimmering. Making sure not to overcrowd the pot and, working in batches, sear until browned all over, about 10 minutes per batch. Transfer to a plate. </li>
+                       <li> Add 8 ounces chopped tomatoes, 1 diced large yellow onion, and 3 crushed garlic cloves to the pot. Sauté until the tomatoes are softened, 3 to 4 minutes. </li>
+                       <li> Return the short ribs back to the pot. Stir in 5 cups water, 1 whole hot green pepper, 2 tablespoons tamarind soup base, 2 tablespoons fish sauce, and 1 teaspoon kosher salt. Bring to a boil. Cover and boil for 20 minutes. </li>
+                       <li> Stir in 1 pound cut daikon, 1 pound cut eggplant, and 4 ounces okra, making sure the vegetables are submerged. Reduce the heat as needed to maintain a simmer. Cover and simmer until the daikon is fork-tender, about 13 minutes. </li>
+                       <li> Stir in 8 ounces cut long beans, making sure they’re submerged. Cook uncovered until the long beans are tender, 2 to 3 minutes. Turn the heat off. Stir in 3 ounces cut water spinach. Cover and let sit until the water spinach wilts, about 2 minutes. Taste and season with more kosher salt as needed. Serve with steamed white rice. </li>
+                       
+                    </ol>
+		     </div>
+
+           </div>	
+         </div>
+      </div>
+
+      <div class="modal-footer">
+
+      	<p> Link to the actual recipe: https://www.thekitchn.com/sinigang-recipe-23687279 </p>
+
+      </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade modal-xl" id="ubeicecream" tabindex="-1" role="dialog" aria-labelledby="ubeicecreamlabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title" id="ubeicecream">Ube Ice-cream</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>        
+      </div>
+
+      <div class="modal-body">
+        <div class="container-fluid">
+        	 <div class="row">
+		      <div class="col-md-4 border object-fit-lg-contain"><img src="ubeicecream.webp" class="img-fluid" ></div>
+		      <div class="col-md-8 border"> 
+		      	<p>Ingredients:</p>
+                    <ul>
+                        <li>2 cups (16floz/450ml) heavy whipping cream, cold</li>
+                        <li>1 can (14floz/400ml) sweetened condensed milk, cold</li>
+                        <li>4 teaspoons (20 ml) ube flavoring extract</li>
+                        <li>1 tablespoon ube powder</li>
+                    </ul>
+                    <p>Steps:</p>
+                    <ol>
+                       <li> Whip heavy cream on medium-high speed until soft peaks form. </li>
+                       <li> Pour in condensed milk and whip until thick, stiff peaks form. </li>
+                       <li> Add the ube extract and powder and whip until combined. </li>
+                       <li> Spread evenly into a freezer-safe container, cover and freeze for at least 5 hours, or overnight. Store in the freezer for up to 6 weeks. </li>
+                    </ol>
+		     </div>
+
+           </div>	
+         </div>
+      </div>
+
+      <div class="modal-footer">
+
+      	<p> Link to the actual recipe: https://www.biggerbolderbaking.com/ube-ice-cream-recipe-no-machine-trader-joes/#ube </p>
+
+      </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

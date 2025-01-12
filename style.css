@@ -1,0 +1,37 @@
+
+.navbar {background-color: #EF8354}
+
+body {background-color: #D8A47F}
+
+.carousel-item 
+{ 
+  height:32rem; 
+  background: #777; 
+  color: white; 
+  position: relative;
+  background-position: center; 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container
+{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 50px;
+}
+
+.overlay-image
+{
+ position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: center; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+}
